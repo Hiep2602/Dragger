@@ -26,9 +26,10 @@ task clean(type: Delete) {
 }
 
 ext {
-    daggerVersion = '2.20'
-    facebookVersion = '9.1.1'
+    dagger_version = '2.20'
+    facebook_version = '9.1.1'
     rxandroid = '3.0.0'
     rxkotlin = '3.0.0'
-    googleVersion = '19.0.0'
+    google_version = '19.0.0'
+    room_version = "2.3.0"
 }
