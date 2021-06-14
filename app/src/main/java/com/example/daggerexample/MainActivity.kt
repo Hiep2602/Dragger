@@ -1,11 +1,13 @@
 package com.example.daggerexample
 
-import androidx.appcompat.app.AppCompatActivity
-import android.os.Bundle
 
-class MainActivity : AppCompatActivity() {
-    override fun onCreate(savedInstanceState: Bundle?) {
-        super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_main)
+import com.example.daggerexample.base.BaseActivity
+
+class MainActivity : BaseActivity() {
+
+
+    override fun getLayoutId(): Int {
+        return R.layout.activity_main
     }
+
 }
